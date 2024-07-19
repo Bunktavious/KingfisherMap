@@ -1,0 +1,49 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    align-items: flex-start;
+}
+
+.frame {
+    width: 500px;  /* Width of the frame */
+    height: 500px; /* Height of the frame */
+    overflow: hidden;
+    position: relative;
+    border: 2px solid black;
+}
+
+.frame img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: auto;
+    height: auto;
+}
+
+.links {
+    margin-left: 20px;
+}
+
+.links ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.links ul li {
+    margin-bottom: 10px;
+}
+
+.links ul li a {
+    text-decoration: none;
+    color: blue;
+    cursor: pointer;
+}
