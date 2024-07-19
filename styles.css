@@ -14,8 +14,8 @@ body {
 }
 
 .frame {
-    width: 500px;  /* Width of the frame */
-    height: 500px; /* Height of the frame */
+    width: 900px;  /* Width of the frame */
+    height: 900px; /* Height of the frame */
     overflow: hidden;
     position: relative;
     border: 2px solid black;
