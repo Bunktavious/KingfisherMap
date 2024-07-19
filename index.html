@@ -4,22 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Interactive Image Viewer</title>
-    <link rel="stylesheet" href="https://drive.google.com/uc?export=view&id=YOUR_CSS_FILE_ID">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
         <div class="frame" id="frame">
-            <img src="https://drive.google.com/uc?export=view&id=1J1ZNeglM71tv1jupmGlfh3o7kpXozgw-" alt="Large Image" id="largeImage">
+            <img src="image1.jpg" alt="Large Image" id="largeImage">
         </div>
         <div class="links">
             <ul>
-                <li><a href="#" onclick="panToSection('https://drive.google.com/uc?export=view&id=1J1ZNeglM71tv1jupmGlfh3o7kpXozgw-', 0, 0)">Section 1</a></li>
-                <li><a href="#" onclick="panToSection('https://drive.google.com/uc?export=view&id=1rHMrZ-duL08XQAVSA4QAiOXn-NtX28uB', -500, -500)">Section 2</a></li>
+                <li><a href="#" onclick="panToSection('image1.jpg', 0, 0)">Section 1</a></li>
+                <li><a href="#" onclick="panToSection('image2.jpg', -500, -500)">Section 2</a></li>
+                <li><a href="#" onclick="panToSection('image3.jpg', -1000, -1000)">Section 3</a></li>
+                <!-- Add more links as needed -->
             </ul>
         </div>
     </div>
-    <script src="https://drive.google.com/uc?export=view&id=YOUR_JS_FILE_ID"></script>
+    <script src="script.js"></script>
 </body>
 </html>
-
 
