@@ -47,3 +47,22 @@ body {
     color: blue;
     cursor: pointer;
 }
+
+#tables {
+    margin-top: 20px;
+}
+
+.info-table {
+    display: none;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.info-table, .info-table th, .info-table td {
+    border: 1px solid black;
+}
+
+.info-table th, .info-table td {
+    padding: 8px;
+    text-align: left;
+}
