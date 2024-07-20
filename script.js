@@ -1,5 +1,4 @@
-// script.js
-function panToSection(imageSrc, offsetX, offsetY) {
+function panToSection(imageSrc, offsetX, offsetY, tableId) {
     const frame = document.getElementById('frame');
     const largeImage = document.getElementById('largeImage');
 
@@ -12,4 +11,16 @@ function panToSection(imageSrc, offsetX, offsetY) {
         largeImage.style.left = offsetX + 'px';
         largeImage.style.top = offsetY + 'px';
     };
+
+    // Hide all tables
+    const tables = document.querySelectorAll('.info-table');
+    tables.forEach(table => {
+        table.style.display = 'none';
+    });
+
+    // Show the selected table
+    const selectedTable = document.getElementById(tableId);
+    if (selectedTable) {
+        selectedTable.style.display = 'table';
+    }
 }
