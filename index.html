@@ -13,12 +13,114 @@
         </div>
         <div class="links">
             <ul>
-                <li><a href="#" onclick="panToSection('Base_Map.jpg', -600, -700)">Main Map</a></li>
-                <li><a href="#" onclick="panToSection('Base_Map_Irrigation_Timer_1.jpg', -903, 0)">Irrigation Timer 1</a></li>
+                <li><a href="#" onclick="panToSection('Base_Map.jpg', -600, -700, 'table-main')">Main Map</a></li>
+                <li><a href="#" onclick="panToSection('Base_Map_Irrigation_Timer_1.jpg', -903, 0, 'table-timer1')">Irrigation Timer 1</a></li>
+                <li><a href="#" onclick="panToSection('Base_Map_Irrigation_Timer_2.jpg', -903, 0, 'table-timer2')">Irrigation Timer 2</a></li>
+                <li><a href="#" onclick="panToSection('Base_Map_Irrigation_Timer_3.jpg', -903, 0, 'table-timer3')">Irrigation Timer 3</a></li>
             </ul>
+            <div id="tables">
+                <table id="table-main" class="info-table">
+                    <!-- Populate with Main Map related data if needed -->
+                </table>
+                <table id="table-timer1" class="info-table">
+                    <tr>
+                        <th>Zone</th>
+                        <th>AM</th>
+                        <th>PM</th>
+                        <th>Duration</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>6:00</td>
+                        <td>18:00</td>
+                        <td>30 min</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>6:15</td>
+                        <td>18:15</td>
+                        <td>30 min</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>6:30</td>
+                        <td>18:30</td>
+                        <td>30 min</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>6:45</td>
+                        <td>18:45</td>
+                        <td>30 min</td>
+                    </tr>
+                </table>
+                <table id="table-timer2" class="info-table">
+                    <tr>
+                        <th>Zone</th>
+                        <th>AM</th>
+                        <th>PM</th>
+                        <th>Duration</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>7:00</td>
+                        <td>19:00</td>
+                        <td>30 min</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>7:15</td>
+                        <td>19:15</td>
+                        <td>30 min</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>7:30</td>
+                        <td>19:30</td>
+                        <td>30 min</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>7:45</td>
+                        <td>19:45</td>
+                        <td>30 min</td>
+                    </tr>
+                </table>
+                <table id="table-timer3" class="info-table">
+                    <tr>
+                        <th>Zone</th>
+                        <th>AM</th>
+                        <th>PM</th>
+                        <th>Duration</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>8:00</td>
+                        <td>20:00</td>
+                        <td>30 min</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>8:15</td>
+                        <td>20:15</td>
+                        <td>30 min</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>8:30</td>
+                        <td>20:30</td>
+                        <td>30 min</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>8:45</td>
+                        <td>20:45</td>
+                        <td>30 min</td>
+                    </tr>
+                </table>
+            </div>
         </div>
     </div>
     <script src="script.js"></script>
 </body>
 </html>
-
